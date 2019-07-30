@@ -15,6 +15,8 @@ The project is organized in the following folders:
 - **feature_matrices**: In this folder feature matrices are stored in txt fromat when created with the methods in `features.py`.
 - **scripts**: It stores all the code developed to carry out the project.
 
+However, in order to not increase considerably the size of the repository, source_dataset, datasets and feature_matrices folders have not been included.
+
 ## Structure of the code
 This repository contains several scripts containing all the different types of functions that have been used in the development of the project. A quick description of the scripts is given below:
 - `environment.py`: In this script we include methods for creating the datasets, setting and storing some variables of the environment, together with some experiments.
