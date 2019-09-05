@@ -3,9 +3,11 @@ In this project several ML and NLP techniques are used to identify the political
 
 ## Abstract
 Classifying the ideology of political texts can be a difficult task even for a human being. In this project different techniques based on machine learning (ML) and Natural Language Processing (NLP) are applied and compared to identify the political ideology of certain texts.
+
 For the development of the project, we use the transcripts of the speeches of the different members of the Congress of the United States of as input texts, and classify them between two classes: democrats and republicans.
 For this purpose, we carry out several experiments combining different ML and NLP techniques such as the use of different classification algorithms such as Naïve Bayes, Logistic Regression, Decision Trees and Support Vector Machines. In addition, different techniques have been combined for the extraction of features to feed the cited algorithms such as Bag of Words (BoW), Collocations, Collocations around the most important words, bigrams and trigrams of words among others.
 An analysis of the most frequent topics among the texts and their impact on ideology has also been carried out using the Latent Dirichlet Allocation (LDA) technique.
+
 After comparing different combinations of the techniques and different years for the creation of the training and testing datasets, we obtain the best of the models used and therefore the model proposed in this Master Thesis as a political ideology text classifier with the combination of: 109th and 111th Congress for the creation of the training dataset and 112th Congress for the testing dataset, the use of Logistic Regression as a classification algorithm, and BoW and bigrams as features of the model. This model provides an accuracy of 76.7%.
 ## Resources:
 - **Parsed speeches from the congresses**: This dataset (Gentzkow, Matthew, Jesse M. Shapiro, 2018 is collected by the Stanford University and contains processed text from the bound and daily editions of the United States Congressional Record. The daily edition has information from the 97th to 114th Congresses. This dataset compiles two types of text files per congress:
